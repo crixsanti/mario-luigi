@@ -40,7 +40,7 @@ MARIO/
 │       ├── servicos.html
 │       └── style-servicos.css
 ├── script.js
-
+```
 
 ## 📲 Demonstração
 
