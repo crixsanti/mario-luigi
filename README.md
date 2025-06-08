@@ -21,29 +21,31 @@ Esse foi o projeto que **mudou minha visão** sobre desenvolvimento e me inspiro
 
 ## 📁 Estrutura do Projeto
 
+```plaintext
 MARIO/
 ├── .vscode/
-│ └── settings.json
+│   └── settings.json
 ├── assets/
-│ ├── logo-header.png
-│ ├── logo.png
-│ ├── mario.png
-│ ├── mario & luigi.png
-│ ├── video.mp4
-│ └── whatsapp.png
+│   ├── logo-header.png
+│   ├── logo.png
+│   ├── mario.png
+│   ├── mario & luigi.png
+│   ├── video.mp4
+│   └── whatsapp.png
 ├── pages/
-│ ├── index/
-│ │ ├── index.html
-│ │ └── style-index.css
-│ └── servicos/
-│ ├── servicos.html
-│ └── style-servicos.css
+│   ├── index/
+│   │   ├── index.html
+│   │   └── style-index.css
+│   └── servicos/
+│       ├── servicos.html
+│       └── style-servicos.css
 ├── script.js
+```
 
 ## 📲 Demonstração
 
 <a href="">CLICK HERE TO SEE THE PROJECT!</a>
-<img src="">
+<img src="https://raw.githubusercontent.com/crixsanti/mario-luigi/refs/heads/main/mario%20%26%20luigi.png">
 
 ## 🚀 Considerações Finais
 
