@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Serviços - Mario & Luigi</title>
+    <link rel="shortcut icon" href="../../assets/logo-header.png" type="image/x-icon">
+    <link rel="stylesheet" href="style-servicos.css">
+</head>
+
+<body>
+    <header>
+        <img src="../../assets/logo-header.png" alt="logo-mario">
+        <a href="../index/index.html">Home</a>
+        <a href="../servicos/servicos.html">Nossos Serviços</a>
+        <a onclick="showForm()">Fale Conosco</a>
+    </header>
+
+    <main>
+        <h1>💧Nossos Serviços</h1>
+
+        <section class="servico">
+            <h2>🔧 Reparo de Vazamentos</h2>
+            <p>Consertamos vazamentos em canos, torneiras e conexões com agilidade e eficiência.</p>
+        </section>
+
+        <section class="servico">
+            <h2>🚽 Desentupimento</h2>
+            <p>Desentupimos pias, vasos sanitários e ralos usando técnicas modernas e limpas.</p>
+        </section>
+
+        <section class="servico">
+            <h2>🚿 Instalação de Louças e Metais</h2>
+            <p>Instalamos pias, torneiras, chuveiros e vasos com acabamento profissional.</p>
+        </section>
+
+        <section class="servico">
+            <h2>🔥 Chuveiros e Aquecedores</h2>
+            <p>Instalação e manutenção de chuveiros elétricos e aquecedores a gás.</p>
+        </section>
+
+        <section class="servico">
+            <h2>🏠 Reformas Hidráulicas</h2>
+            <p>Serviço completo de encanamento para reformas de banheiros e cozinhas.</p>
+        </section>
+
+        <button onclick="showForm()">ENTRAR EM CONTATO</button>
+    </main>
+
+    <div class="box-video">
+        <video src="../../assets/video.mp4" autoplay muted loop></video>
+        <div class="mascara-video"></div>
+    </div>
+
+    <a class="link-whatsapp" href="https://wa.link/tm7lq6" target="_blank">
+        <img class="img-whatsapp" src="../../assets/whatsapp.png" alt="icon-whatsapp">
+    </a>
+
+    <div class="mascara-form" onclick="hiddenForm()"></div>
+
+    <form class="formulario" action="https://formcarry.com/s/2PRM67ggTlF" method="POST" enctype="multipart/form-data">
+        <input type="text" name="nome" placeholder="Digite seu nome:">
+        <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" maxlength="15">
+        <textarea name="message" placeholder="Digite o seu problema aqui:"></textarea>
+        <button class="botao-form" type="submit">Pedir Orçamento</button>
+    </form>
+
+</body>
+<script src="../../script.js"></script>
+
+</html>

@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+header img {
+    height: 60px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header a:hover {
+    color: #c51111;
+    font-size: 26px;
+    transition: 1s ease-in-out;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 200px 100px 100px;
+}
+
+.box1 {
+    width: 45%;
+}
+
+.logo-mario {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    color: white;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+button:hover {
+    color: #c51111;
+    background-color: white;
+    border: 1px solid #c51111;
+    transition: 0.5s ease-in-out;
+}
+
+button:active {
+    opacity: 0.6;
+    transition: none;
+}
+
+.img-mario-luigi {
+    height: 500px;
+}
+
+.box-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara-video {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+.link-whatsapp {
+    position: fixed;
+    z-index: 99;
+    right: 20px;
+    bottom: 20px;
+}
+
+.img-whatsapp {
+    height: 60px;
+}
+
+.formulario {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    top: 30%;
+    left: -300px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 0.5s ease-in-out;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+
+.botao-form {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.mascara-form {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+@media(max-width: 1000px) {
+    p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .logo-mario {
+        height: 170px;
+    }
+
+    .box1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .img-mario-luigi {
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    header img {
+        height: 30px;
+    }
+
+    header a {
+        font-size: 16px;
+    }
+
+    header a:hover {
+    color: #c51111;
+    font-size: 18px;
+    transition: 1s ease-in-out;
+}
+}
