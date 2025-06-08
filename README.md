@@ -19,29 +19,6 @@ Esse foi o projeto que **mudou minha visão** sobre desenvolvimento e me inspiro
 - [**Formcarry**](https://formcarry.com/) – para gerenciamento do formulário de contato.
 - **API do WhatsApp** – para envio de mensagens diretas.
 
-## 📁 Estrutura do Projeto
-
-```plaintext
-MARIO/
-├── .vscode/
-│   └── settings.json
-├── assets/
-│   ├── logo-header.png
-│   ├── logo.png
-│   ├── mario.png
-│   ├── mario & luigi.png
-│   ├── video.mp4
-│   └── whatsapp.png
-├── pages/
-│   ├── index/
-│   │   ├── index.html
-│   │   └── style-index.css
-│   └── servicos/
-│       ├── servicos.html
-│       └── style-servicos.css
-├── script.js
-```
-
 ## 📲 Demonstração
 
 <a href="">CLICK HERE TO SEE THE PROJECT!</a>
